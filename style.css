@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Lato, sans-serif;
+}
+
+/* qui inizia la parte alta */
+.container{
+background-color: rgba(0, 100, 0, 0.5);
+width: 1000px;
+height: 900px;
+border-radius: 20px;
+margin: auto;
+text-align: center;
+margin-top: 30px;
+
+}
+
+img{
+  width: 220px;
+  height: 100px;
+  margin-top: 120px;
+}
+
+.barra{
+  background-color: green;
+  width: 700px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+button{
+  margin-top: 15px;
+}
+
+/* qui inzia il contenuto */
+
+.testo{
+  width: 700px;
+  margin: auto;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.barra1{
+  width: 260px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.barra2{
+  width: 460px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.barra3{
+  width: 560px;
+  height: 30px;
+  background-color: red;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+.fas{
+  color: white;
+  font-size: 12px;
+}
+
+span, p, h1{
+  color: white;
+
+}
